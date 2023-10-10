@@ -1173,9 +1173,9 @@
   integrity sha512-6jSBQQugzyX1aWto0CbvOnmxrU9tMoXfA9gc4IrLEtvr3dTwSg5GLGoWiZnGLI6UG/kqpB3JOQKQrqnhUWGKQA==
 
 "@types/bluebird@^3.5.19":
-  version "3.5.38"
-  resolved "https://registry.npmjs.org/@types/bluebird/-/bluebird-3.5.38.tgz"
-  integrity sha512-yR/Kxc0dd4FfwtEoLZMoqJbM/VE/W7hXn/MIjb+axcwag0iFmSPK7OBUZq1YWLynJUoWQkfUrI7T0HDqGApNSg==
+  version "3.5.40"
+  resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.5.40.tgz#d5ffe53eb1528c8e95bcea8de5f8364089bf7c77"
+  integrity sha512-4dEtF/qcby/FdT6iChii+jFXzVVX0+5HYiDqHKBtHQ3ZV58x5uVJJYRG0N4QllIaj5a2+UDdf/nupae+/M6mdw==
 
 "@types/component-emitter@^1.2.10":
   version "1.2.11"
