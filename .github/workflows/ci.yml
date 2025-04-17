@@ -8,10 +8,10 @@ on:
 # https://github.com/actions/starter-workflows/issues/158
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [18.x, 20.x, 22.x]
+        node-version: [18.x, 22.x]
     env:
       NODE_ENV: ci
     steps:
@@ -32,5 +32,5 @@ jobs:
       - name: check ssl example start
         working-directory: ./examples/ssl-connector/game-server
         run: node ci-test.js && pkill -f node
-        
+
 
